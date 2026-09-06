@@ -1,0 +1,13 @@
+[book]
+title = "gpui"
+authors = ["Jonathan Gerber"]
+description = "A Guide to the GPUI UI Framework."
+src = "src"
+
+[build]
+build-dir = "html"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+additional-css = ["custom.css"]

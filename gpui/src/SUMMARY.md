@@ -1,0 +1,17 @@
+# Summary
+
+- [Developing with gpui](./gpui/README.md)
+  - [Introduction: the mental model and your first window](./01-introduction.md)
+  - [Elements and styling](./02-elements-and-styling.md)
+  - [Entities and views](./03-entities-and-views.md)
+  - [Contexts: `App`, `Context`, `Window`, `AsyncApp`](./04-contexts.md)
+  - [Interactivity: events, listeners, and stateful elements](./05-interactivity.md)
+  - [State, `notify`, events, and observation](./06-state-events-observation.md)
+  - [Actions and key bindings](./07-actions-and-keybindings.md)
+  - [Focus and text input](./08-focus-and-input.md)
+  - [Windows and dialogs](./09-windows-and-dialogs.md)
+  - [Async and background work](./10-async-and-background-work.md)
+  - [Global state](./11-global-state.md)
+  - [Putting it together: a complete app](./12-a-complete-app.md)
+  - [Common components (`gpui-component`)](./13-common-components.md)
+  - [Theming and icons](./14-theming-and-icons.md)
