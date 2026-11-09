@@ -1,0 +1,13 @@
+[book]
+title = "nvim"
+authors = ["Jonathan Gerber"]
+description = "A guide to using Neo Vim."
+src = "src"
+
+[build]
+build-dir = "html"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+additional-css = ["custom.css"]

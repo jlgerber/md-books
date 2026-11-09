@@ -1,0 +1,17 @@
+/* Shared mdbook overrides for the yaams handbooks (#379).
+ *
+ * The default mdbook content column is narrow, which wastes a lot of space on
+ * wide monitors. On desktop widths, let content fill more of the viewport while
+ * keeping a readable cap; code blocks and tables get the full width. Narrow
+ * screens are untouched. Referenced from each book.toml as `../custom.css`. */
+@media (min-width: 992px) {
+    :root {
+        /* Fill 85% of wide screens, capped at a readable max width. */
+        --content-max-width: max(900px, 85%);
+    }
+
+    /* Let code blocks and tables use the widened space. */
+    .content main {
+        max-width: 85%;
+    }
+}
