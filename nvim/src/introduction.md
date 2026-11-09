@@ -111,6 +111,7 @@ Once in the find mode, you can use `,` to go back and `;` to go forward
 
 Key | Description 
 --- | --- 
-o   | Make a new line and go into insert mode 
-O   | Make a new line above your cursor and go into insert mode
-
+o      | Make a new line and go into insert mode 
+O      | Make a new line above your cursor and go into insert mode
+ctrl d | Jump half page down 
+ctrl u | Jump half page up
