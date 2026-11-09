@@ -1,5 +1,16 @@
 # General
 
+## Parts 
+
+### Buffer
+
+A representation of a file in memory. You manipulate text in buffers. 
+
+### Window 
+
+A view of a buffer. You can open multiple windows pointing at different parts of the same buffer. 
+
+
 ## Modes 
 
 Vim is a modal editor; you are always in one of a number of different modes. There area four common modes:
@@ -79,6 +90,9 @@ Key | Description
 _   | Cursor goes to the beginning of the line
 ^   | Cursor goes to beginning of text of the current line 
 $   | Cursor goes to end of the line 
+I   | Move to the beggining of the line, in insert mode 
+A   | Move to the end of the line but in insert mode
+
 
 ### Moving To a Specific Character
 
@@ -90,3 +104,13 @@ F   | Move *backwards* to the next provided character
 T   | Move *backwards* up to the next provided character
 
 Once in the find mode, you can use `,` to go back and `;` to go forward 
+
+## Vertical Motion 
+
+### Opening new lines 
+
+Key | Description 
+--- | --- 
+o   | Make a new line and go into insert mode 
+O   | Make a new line above your cursor and go into insert mode
+
