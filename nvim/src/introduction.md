@@ -69,3 +69,24 @@ If you press colon (':') in normal mode, this puts you in command mode. Your cur
 - **:w** - save the current file (buffer)
 - :wq - save the current file and quit the buffer (and potentially vim)
 
+## Horizontal Motion
+
+### Moving to the Beginning or End of the Line
+
+Key | Description
+--- | ---
+0   | Cursor goes to the beginning of the line (0th character)
+_   | Cursor goes to the beginning of the line
+^   | Cursor goes to beginning of text of the current line 
+$   | Cursor goes to end of the line 
+
+### Moving To a Specific Character
+
+Key | Description 
+--- | --- 
+f   | Move forward to the provided subsequent character (eg `f(` to move to the next parens )
+t   | Move up to but not on the specified character
+F   | Move *backwards* to the next provided character
+T   | Move *backwards* up to the next provided character
+
+Once in the find mode, you can use `,` to go back and `;` to go forward 
